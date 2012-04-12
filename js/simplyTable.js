@@ -230,6 +230,7 @@
 				simplySearch += '</select>';
 				simplySearch += '<input name="search_val" type="text" size="12"/>';
 				simplySearch += '<input id="simply-go" type="button" value="go" size="3" />';
+				simplySearch += '<input id="simply-clear" type="button" value="clear" size="5" />';
 				
 				var moreRow = '<tr><td colspan="'+total_column+'" class="paging">'+simplySearch+'</td></tr>';
 				$('.moreRow').html(moreRow);
@@ -241,6 +242,14 @@
 				$('#simply-go').click(function(){
 					params.search_key = $('select[name=search_key]').val();
 					params.search_val = $('input[name=search_val]').val();
+					params.page = 1;
+					divElement.trigger('reloadGrid');
+				});
+			
+				$('#simply-clear').click(function(){
+					params.search_key = '';
+					params.search_val = '';
+					params.page = 1;
 					divElement.trigger('reloadGrid');
 				});
 			});

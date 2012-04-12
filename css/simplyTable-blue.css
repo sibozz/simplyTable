@@ -1,0 +1,97 @@
+.round{
+	-moz-border-radius: 10px 10px 0 0;
+	-webkit-border-radius: 10px 10px 0 0;
+	border-radius:10px 10px 0 0;
+	overflow:hidden;
+}
+.table_content
+{
+	width: 100%; 
+	table-layout: fixed; 
+	margin-right: 20px; 
+	border-top: 1px solid #6B87EA;
+}
+.table_content th
+{
+	background-color: #0C286F;
+	color: #FFFFFF;
+	padding: 5px;
+	text-align: center;
+}
+.table_content td {
+    padding: 5px;
+}
+.table_content th img, .table_content th a img
+{
+	height: 15px;
+}
+.table_content th.left{border-left: 1px solid #6B87EA;border-bottom: 1px solid #6B87EA;}
+.table_content th.center{border-left: 1px solid #6B87EA;border-bottom: 1px solid #6B87EA;}
+.table_content th.right{border-left: 1px solid #6B87EA;border-right: 1px solid #6B87EA;border-bottom: 1px solid #6B87EA;}
+
+.table_content td.left{border-left: 1px solid #6B87EA;border-bottom: 1px solid #6B87EA;}
+.table_content td.center{border-left: 1px solid #6B87EA;border-bottom: 1px solid #6B87EA;}
+.table_content td.right{border-left: 1px solid #6B87EA;border-right: 1px solid #6B87EA;border-bottom: 1px solid #6B87EA;}
+
+.table_content td.ganjil
+{
+	background-color: #9CB4D8;
+	text-align: center;
+	word-wrap: break-word;
+
+}
+.table_content td.genap
+{
+	background-color: #D0DEF1;
+	text-align: center;
+	word-wrap: break-word;
+}
+.table_content .paging{
+	background-color: #9EB3ED;
+	border-bottom: 1px solid #6B87EA;
+	border-left: 1px solid #6B87EA;
+	border-right: 1px solid #6B87EA;
+}
+.spanAsc{
+	background:url(img/asc.gif);
+	display: inline-block;
+    width: 14px;
+    float: right;
+}
+.spanDesc{
+	background:url(img/desc.gif);
+	display: inline-block;
+    width: 14px;
+    float: right;
+}
+
+.spanNext{
+	background:url(img/next.gif) no-repeat scroll 0 2px transparent;
+	display: inline-block;
+    width: 14px;
+}
+
+.spanPrev{
+	background:url(img/prev.gif) no-repeat scroll 0 2px transparent;
+	display: inline-block;
+    width: 14px;
+}
+
+.spanLast{
+	background:url(img/last.gif) no-repeat scroll 0 2px transparent;
+	display: inline-block;
+    width: 14px;
+}
+
+.spanFirst{
+	background:url(img/first.gif) no-repeat scroll 0 2px transparent;
+	display: inline-block;
+    width: 14px;
+}
+
+.spanSearch{
+	background:url(img/search.png) no-repeat scroll 3px 3.5px transparent;
+	display: inline-block;
+    width: 20px;
+    margin-left: 5px;
+}

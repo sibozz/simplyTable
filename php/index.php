@@ -31,6 +31,8 @@ function gridData()
 	}
 	
 	$sqlTotal = "SELECT COUNT(*) FROM grid";
+	if(!empty($search_key) and !empty($search_val))
+		$sqlTotal .= " WHERE {$search_key}='{$search_val}'";
 	$total = mysql_fetch_row(mysql_query($sqlTotal));
 	
 	$pagination = array('page'=>$page,'total'=>$total[0],'limit'=>$limit);

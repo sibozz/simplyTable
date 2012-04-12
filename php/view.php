@@ -7,7 +7,7 @@
 	<script type="text/javascript" src="../js/jquery-1.7.min.js"></script>
 	<script type="text/javascript" src="../js/simplyTable.js"></script>
 	<script type="text/javascript" src="../js/loaddata.js"></script>
-	<link rel="stylesheet" media="all" type="text/css" href="../css/simplyTable.css">
+	<link rel="stylesheet" media="all" type="text/css" href="../css/simplyTable-blue.css">
 </head>
 
 <body>
